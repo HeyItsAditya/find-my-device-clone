@@ -19,7 +19,7 @@ A responsive **Find My Device** UI clone built with **Next.js**, **React**, and 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/HeyItsAditya/FindMyDeviceClone
+git clone https://github.com/HeyItsAditya/find-my-device-clone
 cd find-my-device-clone
 ```
 
