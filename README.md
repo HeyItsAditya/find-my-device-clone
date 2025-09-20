@@ -19,7 +19,7 @@ A responsive **Find My Device** UI clone built with **Next.js**, **React**, and 
 1. **Clone the repository**
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/HeyItsAditya/FindMyDeviceClone
 cd find-my-device-clone
 ```
 
@@ -45,6 +45,7 @@ Open your browser and go to:
 
 ```
 http://localhost:3000
+Or the URL it asks you to visit
 ```
 
 - The UI should load with **device list**, **map**, and **device details**.
@@ -57,19 +58,19 @@ http://localhost:3000
 
 ```
 find-my-device-clone/
-├── app/                  # Next.js App Router pages
-│   └── page.js           # Main page with layout (device list, map, details)
-├── components/           # Reusable React components
-│   ├── DeviceList.jsx    # Lists all devices
-│   ├── DeviceItem.jsx    # Individual device card
-│   ├── DeviceDetails.jsx # Selected device details with actions
-│   └── MapView.jsx       # Leaflet map showing device markers
-├── styles/               # Global CSS
-│   └── globals.css       # Layout and styling for cards, map, header
-├── utils/                # Utility files
-│   └── dummyData.js      # Dummy JSON data for devices
-├── package.json          # Node.js dependencies & scripts
-└── README.md             # This file
+├── app/
+│   └── page.js
+├── components/
+│   ├── DeviceList.js
+│   ├── DeviceItem.js
+│   ├── DeviceDetails.js
+│   └── MapView.js
+├── styles/
+│   └── globals.css
+├── utils/
+│   └── dummyData.js
+├── package.json
+└── README.md
 ```
 
 ---
@@ -88,4 +89,3 @@ find-my-device-clone/
 - **Dummy data** is used; no backend or database is connected.
 - **Map markers** are fixed and generated from dummy latitude/longitude.
 - UI is built using **plain CSS** for simplicity and compatibility.
-
